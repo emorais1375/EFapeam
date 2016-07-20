@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_noticia"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Notícias" />
+        <item
+            android:id="@+id/nav_editais"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Editais" />
+        <item
+            android:id="@+id/nav_institucional"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Informações Institucionais" />
+        <item
+            android:id="@+id/nav_bolsistas"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Informações dos Bolsistas" />
+    </group>
+
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_contato"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Informações para Contato" />
+        <item
+            android:id="@+id/nav_compartilhar"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Redes Sociais" />
+        <item
+            android:id="@+id/nav_sobre"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Sobre" />
+    </group>
+
+
+</menu>
